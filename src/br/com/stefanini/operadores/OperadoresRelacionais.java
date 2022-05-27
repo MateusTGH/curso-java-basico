@@ -1,0 +1,25 @@
+package br.com.stefanini.operadores;
+
+public class OperadoresRelacionais {
+
+	public static void main(String[] args) {
+		int a = 10;
+		int b = 20;
+		
+		//==
+		System.out.println(a == b);
+		//!= diferente
+		System.out.println(a != b);
+		//< menor > maior
+		System.out.println(a < b);
+		System.out.println(a > b);
+		//<= menor ou igual ou maior ou igual
+		System.out.println(a <= b);
+		System.out.println(a >= b);
+		
+		
+		
+	}
+	
+	
+}
